@@ -1,0 +1,43 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+nav {
+  background-color: #c20000;
+  height: 50px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  top: 0;
+  z-index:100;
+  position: sticky;
+}
+.menu{
+  margin: 10px;
+  color:white;
+  z-index:50;
+  position: relative;
+}
+a {
+  color: white;
+  vertical-align: middle;
+  line-height: 50px;
+  font-weight: bold;
+  text-decoration: none;
+  transition: color 2s;
+}
+a:hover {
+  color: #ff9f9f;
+}
+.tendina {
+  background-color: #ff9f9f;
+  width: 200px;
+  height: 100px;
+  position: absolute;
+  top: 50px;
+  color: black;
+  display: none;
+}
