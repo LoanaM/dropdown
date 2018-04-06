@@ -52,10 +52,17 @@ $('#offer').on({
   }
 });
 
-
+//tendinalaterale
 $('#item1').mouseenter(function(){
-  $(this).parents().children('.tendalaterale').fadeIn();
+  $(this).parents().children('.td1').fadeIn();
 });
 $('#item1').mouseleave(function(){
-  $(this).parents().children('.tendalaterale').fadeOut();
-  });
+  $(this).parents().children('.td1').fadeOut();
+});
+
+$('#item2').mouseenter(function(){
+  $(this).parents().children('.td2').show();
+});
+$('#item2').mouseleave(function(){
+  $(this).parents().children('.td2').hide();
+});
