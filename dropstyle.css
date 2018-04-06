@@ -49,3 +49,13 @@ a:hover {
   color: black;
   display: none;
 }
+.tendalaterale {
+  background-color: yellow;
+  width: 200px;
+  height: 100px;
+  position: absolute;
+  top: 50px;
+  left: 200px;
+  color: black;
+  display: none;
+}

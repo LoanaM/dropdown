@@ -51,3 +51,11 @@ $('#offer').on({
     $(this).parents().children('.faicon').hide();
   }
 });
+
+
+$('#item1').mouseenter(function(){
+  $(this).parents().children('.tendalaterale').fadeIn();
+});
+$('#item1').mouseleave(function(){
+  $(this).parents().children('.tendalaterale').fadeOut();
+  });
